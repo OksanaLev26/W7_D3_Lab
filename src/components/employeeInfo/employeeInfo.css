@@ -1,0 +1,77 @@
+.employeeInfo {
+    border-radius: 8px;
+    border: 1px solid rgb(216, 214, 214);
+    margin-top: 20px;
+}
+
+.employeeInfo-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    margin: 5px;
+}    
+
+.employeeInfo-img {
+    margin-right: 10px;
+}
+
+.employeeInfo-info {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+}
+
+.employeeInfo-img {
+    width: 100px;
+    height: 100px;
+}
+
+.employeeInfo-name {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(42, 41, 41);
+}
+
+.employeeInfo-jobTitle {
+    color:rgb(150, 150, 150);
+    font-size: 18px;
+}
+
+.employeeInfo-divider {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(216, 214, 214);
+}
+
+.employeeInfo-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 90px;
+}
+
+.employeeInfo-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.employeeInfo-contactType {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(42, 41, 41);
+}
+
+.employeeInfo-contactValue {
+    color:rgb(150, 150, 150);
+}
+
+.employeeInfo-arrow {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.emloyeeListItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    cursor: pointer;
+}
+
+.emloyeeListItem-img {
+    margin-right: 10px;
+}
+
+.emloyeeListItem-info {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+}
+
+.emloyeeListItem-img {
+    width: 50px;
+    height: 50px;
+}
+
+.emloyeeListItem-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(42, 41, 41);
+}
+
+.emloyeeListItem-jobTitle {
+    color:rgb(150, 150, 150);
+}
+
+.emloyeeListItem-divider {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(216, 214, 214);
+}
+
+.search {
+    display: flex;
+}
