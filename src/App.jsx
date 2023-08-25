@@ -81,7 +81,6 @@ function App() {
   const [currentEmployee, setCurrentImloyee] = useState(null);
 
   const handleSetCurrentEmployee = (item) => {
-    console.log("item", item);
     setCurrentImloyee(item);
   };
 

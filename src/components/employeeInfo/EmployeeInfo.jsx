@@ -17,7 +17,7 @@ const EmployeeInfo = ({ employee }) => {
       <div className="employeeInfo-divider" />
       {employee.contacts.map((contact, index) => {
         return (
-          <div>
+          <div key={`${contact}-${index}`}>
             <div className="employeeInfo-contacts">
               <div className="employeeInfo-info">
                 <div className="employeeInfo-contactType">{contact.type}</div>
@@ -38,7 +38,6 @@ const EmployeeInfo = ({ employee }) => {
     </div>
     )}
     </>
-    
   );
 };
 

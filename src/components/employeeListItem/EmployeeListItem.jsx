@@ -1,7 +1,6 @@
 import "./employeeListItem.css";
 
 const EmloyeeListItem = ({ employeeList, setCurrentImloyee }) => {
-  console.log("employeeList", employeeList);
   return (
     <>
       {employeeList.map((employee, index) => {
@@ -10,7 +9,7 @@ const EmloyeeListItem = ({ employeeList, setCurrentImloyee }) => {
         };
 
         return (
-          <>
+          <div key={employee.name}>
             <div className="emloyeeListItem" onClick={handleEmployeeClick}>
               <div className="emloyeeListItem-img">
                 <img
@@ -29,7 +28,7 @@ const EmloyeeListItem = ({ employeeList, setCurrentImloyee }) => {
             {index !== employeeList.length - 1 && (
               <div className="emloyeeListItem-divider" />
             )}
-          </>
+          </div>
         );
       })}
     </>
