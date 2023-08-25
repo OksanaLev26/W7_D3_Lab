@@ -1,7 +1,9 @@
 .employeeInfo {
     border-radius: 8px;
     border: 1px solid rgb(216, 214, 214);
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .employeeInfo-content {

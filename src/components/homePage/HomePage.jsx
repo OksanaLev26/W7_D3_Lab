@@ -7,7 +7,7 @@ const HomePage = ({ employeeList, setCurrentImloyee }) => {
     <div className="homePage">
       <Header title="Employee Directory" />
       <div className="search">
-        <input />
+        <input placeholder="Search" />
       </div>
       <EmloyeeList
         employeeList={employeeList}

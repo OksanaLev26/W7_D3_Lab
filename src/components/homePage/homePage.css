@@ -4,6 +4,8 @@
     justify-content: center;
     width: 50%;
     height: 100%;
+    border: solid 3px orange;
+    padding: 1px;
 }
 
 input {
@@ -14,6 +16,12 @@ input {
     border-radius: 8px;
     border-color: rgb(216, 214, 214);
     border-style: solid;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 25px;
+   
+}
+
+.search {
+    border: solid 3px green;
+    padding: 1px;
 }

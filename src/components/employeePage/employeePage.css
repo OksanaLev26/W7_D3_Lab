@@ -1,8 +1,8 @@
 .employeePage {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 50%;
-    height: 100%;
-    margin-left: 50px;
+    margin-left: 5px;
+    border: solid 3px brown;
+    padding: 1px;
 }

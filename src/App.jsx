@@ -78,7 +78,7 @@ function App() {
       ],
     },
   ];
-  const [currentEmployee, setCurrentImloyee] = useState(employeeList[0]);
+  const [currentEmployee, setCurrentImloyee] = useState(null);
 
   const handleSetCurrentEmployee = (item) => {
     console.log("item", item);

@@ -2,7 +2,9 @@ import "./employeeInfo.css";
 
 const EmployeeInfo = ({ employee }) => {
   return (
-    <div className="employeeInfo">
+    <>
+    {employee && (
+      <div className="employeeInfo">
       <div className="employeeInfo-content">
         <div className="employeeInfo-img">
           <img className="employeeInfo-img" src={employee.img} alt="employee" />
@@ -34,6 +36,9 @@ const EmployeeInfo = ({ employee }) => {
         );
       })}
     </div>
+    )}
+    </>
+    
   );
 };
 

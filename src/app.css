@@ -3,4 +3,6 @@
   justify-content: space-between;
   width: 70%;
   margin: 50px auto;
+  border: solid 3px black;
+  padding: 1px;
 }
