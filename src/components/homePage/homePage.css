@@ -33,4 +33,5 @@ input {
     position: absolute;
     top: 13px;
     right: 4px;
+    cursor: pointer;
 }
